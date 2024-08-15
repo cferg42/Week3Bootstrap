@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exotic Fruit Information</title>
+    <link
+      rel="stylesheet"
+      href="node_modules\bootstrap\dist\css\bootstrap.css"
+    />
+
+    <!--Nav bar heading,  --> <!---->
+
+    <nav class="navbar navbar-expand bg-success"> <!-- background color adjusted within class for navbar-->
+      <div class="container-fluid">    <!-- allows navbar to stretch across full length of screen-->
+        <a class="navbar-brand" href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#">Exotic Fruits</a> <!-- link for navbar text -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span> <!-- inline style used to toggle icon in navbar-->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#">Fruits</a>
+            </li>
+              </ul>
+
+          <form class="d-flex" role="search"> <!-- class used to style search engine in navbar, form for search bar is createdlocataed within navbar-->
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+        </div>
+      </div>
+    </nav>
+  </head>
+
+  <!-- section 1 body -->
+
+  <body class="container-fluid" > <!-- style used to center all contents of webpage,  width of content 100% and uses entire port-->
+    <div class="text-center fs-1 mb-5 pt-5"> <!-- style used to center the text and also adjust font size, margin and padding-->
+      Welcome to Information about Exotic Fruit!
+    </div>
+    <div class="mb-5 fs-3 ">
+        <p class="container">
+      We are here to provide information about some of the exotic fruits of the
+      world! The fruits displayed on our page are available in the United States
+      but many people are unaware of the taste and benefits so we are here to
+      provide insight about some these mystery fruits!</p>
+    </div>
+
+    <div class="text-center mb-5 fs-4"><u>
+      View the chart below to see the current Exotic Fruits available in the
+      USA:</u>
+    </div>
+
+    <!-- table section -->
+
+    <table class="container table table-striped table-sm table table-bordered border-success" > <!-- style used to create color border of table and lines between columns and rows -->
+      <thead>
+        <tr>
+          <th scope="col">Fruit</th> <!--6 columns horizontal, 5 rows vertical. -->
+          <th scope="col">Native Origin</th>
+          <th scope="col">Color</th>
+          <th scope="col">Taste</th>
+          <th scope="col">Benefits</th>
+          <th scope="col">Cost</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">CHERIMOYA</th>
+          <td>South America</td>
+          <td>Green</td>
+          <td>Sweet</td>
+          <td>High in Antioxidants</td>
+          <td>Expensive</td>
+        </tr>
+        <tr>
+          <th scope="row">DURIAN</th>
+          <td>Asia</td>
+          <td>Green/Brown</td>
+          <td>Sweet/Savory</td>
+          <td>Aids in Digestion</td>
+          <td>Cheap</td>
+        </tr>
+        <tr>
+          <th scope="row">LYCHEE</th>
+          <td>Asia, Africa, Australia</td>
+          <td>Red</td>
+          <td>Sweety</td>
+          <td>Boosts Immunity</td>
+          <td>Cheap</td>
+        </tr>
+
+        <tr>
+          <th scope="row">PASSION FRUIT</th>
+          <td>South America</td>
+          <td>Purple</td>
+          <td>Sweety, Tangy</td>
+          <td>Good Source of Fiber</td>
+          <td>Expensive</td>
+        </tr>
+        <tr>
+          <th scope="row">STARFRUIT</th>
+          <td>Asia</td>
+          <td>Yellow or Green</td>
+          <td>Tart, Sweet</td>
+          <td>Vitamin C</td>
+          <td>Cheap</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- section 2 bottom -->
+
+    <div class="fs-2 pt-5 text-center"><u>
+      Please view photos below to see each fruit, click picture to view more
+      information:</u>
+    </div>
+    <div class="container-fluid"> <!-- style used to align links and photos. grants max width of container for the entire with of the port -->
+      <div class="row">  <!--no style added, class identified as a row--> 
+        <div class="col mb-5 mt-5"> <!-- 1st column of grid and margin is add for spacing of items on top and bottom --> <!--TWO COLUMNS -->
+            <a
+            href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#"
+          >
+          <p><a href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#" class="link-success">CHERIMOYA <!-- hyperlink added to text and image. Picture width adjusted-->
+            <img src="labpics\cherimoya-1.jpg" alt="Cherimoya" width="400" /></a></p>
+    </div>
+        <div class="col mt-5 mb-5">
+          <a
+            href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#"
+          >
+          <p><a href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#" class="link-success">DURIAN
+            <img src="labpics\durian-inside.webp" alt="Durian" width="450" /></a></p>
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">   <!--THREE COLUMNS -->
+          <a
+            href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#"
+          >
+          <p><a href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#" class="link-success">LYCHEE
+          <img src="labpics\lychee-1.jpg" alt="Lychee" width="450" /></a></p> 
+          </a>
+        </div>
+        <div class="col-sm">
+          <a
+            href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#"
+          >
+          <p><a href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#" class="link-success">PASSION FRUIT
+          <img src="labpics\passion-fruit-photo-1.jpg" alt="Passion Fruit" width="500" /> </a></p>
+          </a>
+        </div>
+        <div class="col-sm mb-5">
+          <a
+            href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#"
+          >
+          <p><a href="http://127.0.0.1:5500/Coding%20Assignment/project3-1index.html#" class="link-success">STAR-FRUIT 
+          <img
+              src="labpics\Star-Fruit.jpg"
+              alt="Star-Fruit"
+              width="500" /></a></p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="fs-5 mt-5 text-center bg-success-subtle">Brought to you by Fergology</div>
+  </body>
+</html>
